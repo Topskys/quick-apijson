@@ -1,7 +1,7 @@
 <!--
  * @Author: Topskys
  * @Date: 2022-08-22 19:00:39
- * @LastEditTime: 2022-08-22 19:02:24
+ * @LastEditTime: 2022-08-22 19:58:51
  * @LastEditors: Topskys
  * @Description: 
  * @FilePath: \quick-apijson\src\App.vue
@@ -23,7 +23,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;
-  color: #2c3e50;
+  // color: #2c3e50;
+}
+*{
+  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 nav {
