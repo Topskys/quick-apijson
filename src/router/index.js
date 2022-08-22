@@ -1,14 +1,22 @@
+/*
+ * @Author: Topskys
+ * @Date: 2022-08-22 19:00:39
+ * @LastEditTime: 2022-08-22 19:03:25
+ * @LastEditors: Topskys
+ * @Description: 
+ * @FilePath: \quick-apijson\src\router\index.js
+ * 可以输入预定的版权声明、个性签名、空行等
+ */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
+const routes = [{
     path: '/',
     name: 'home',
-    component: HomeView
+    component: Home
   },
   {
     path: '/about',
@@ -16,7 +24,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import( /* webpackChunkName: "about" */ '../views/AboutView.vue')
   }
 ]
 
